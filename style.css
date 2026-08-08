@@ -2,8 +2,7 @@
 
 
 
-@media(max-width:800px){.hero-photo{height:470px;max-width:none}.portrait{max-width:300px;height:320px}}
-@media(max-width:560px){.hero-photo{height:390px}.portrait{height:300px}}
+
 
 .image-logo{display:block;line-height:0}
 .image-logo img{display:block;width:245px;height:auto;max-height:72px;object-fit:contain;object-position:left center}
