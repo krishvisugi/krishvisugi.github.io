@@ -449,3 +449,49 @@
   }
 
 }
+/* COMPACT EXPERIENCE */
+
+.experience-compact {
+  max-width: 900px;
+  margin: 45px auto 0;
+}
+
+.experience-compact article {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 30px;
+  padding: 25px 0;
+  border-bottom: 1px solid #dce7e3;
+}
+
+.experience-compact article > span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #075c50;
+}
+
+.experience-compact h3 {
+  margin: 0 0 5px;
+  font-size: 20px;
+  color: #123c36;
+}
+
+.experience-compact h4 {
+  margin: 0 0 10px;
+  font-size: 15px;
+  color: #52645f;
+}
+
+.experience-compact p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #475569;
+}
+
+@media (max-width: 650px) {
+  .experience-compact article {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
